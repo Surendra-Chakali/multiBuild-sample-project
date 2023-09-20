@@ -2,7 +2,9 @@ pipeline{
   agent any
   stages{
     stage('Build'){
-          echo "Hey suri"
+      steps{
+          echo "Hey this is from master branch"
+      }
     }
   }
 }
