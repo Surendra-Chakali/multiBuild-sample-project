@@ -11,7 +11,7 @@ pipeline{
         branch 'master'
       }
       steps{
-          echo "Pushing master branch code to dev branch"
+          echo "Pushing master branch code to main branch"
       }
     }
   }
