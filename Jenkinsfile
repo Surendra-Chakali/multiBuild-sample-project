@@ -8,7 +8,7 @@ pipeline{
     }
     stage('Pull to Main repository'){
       when{
-        branch 'Development'
+        branch 'master'
       }
       steps{
           echo "Pushing master branch code to dev branch"
